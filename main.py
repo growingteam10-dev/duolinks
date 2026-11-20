@@ -3,7 +3,7 @@ from flask import Flask
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes, CommandHandler
 
-BOT_TOKEN = os.environ.get("9164390255:AAEI9OFPSCmJjG-W9Cw2aw_H_y-kWnxscMU")
+BOT_TOKEN = os.environ.get("	9164390255:AAF9dD87VcEWs1qreAlWSurwPvKmRU4w8xg")
 DUOLINKS_API = "f307d926c85ce7ccb657bf6e4a1a9f520951ada8"
 API_URL = "https://duolinks.in/api"
 
