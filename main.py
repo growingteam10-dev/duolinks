@@ -8,6 +8,7 @@ DUOLINKS_API = "f307d926c85ce7ccb657bf6e4a1a9f520951ada8"
 API_URL = "https://duolinks.in/api"
 
 app_web = Flask(__name__)
+
 @app_web.route('/')
 def home():
     return "Flipping Loots Bot is Live!"
