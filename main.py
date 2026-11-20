@@ -11,7 +11,7 @@ app_web = Flask(__name__)
 
 @app_web.route('/')
 def home():
-    return "Flipping Loots Bot is Live!"
+    return "duo links Bot is Live!"
 
 def run_web():
     port = int(os.environ.get("PORT", 10000))
